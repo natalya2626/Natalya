@@ -1,0 +1,21 @@
+:root {
+    --max-page-width:  920px;
+}
+
+main {
+    margin: 0 auto;
+    max-width: var(--max-page-width);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
